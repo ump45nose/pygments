@@ -2,50 +2,53 @@
 public GenericResult Connect(IPAddress ip);
 public GenericResult<bool> Connect(IPAddress ip);
 public GenericResult<MeLiBu.IMeLiBuFrame> MeLiBu_ReceiveFrame(MeLiBu.IMeLiBuFrameHeader frameHeader);
+
 ---tokens---
-Keyword         : 'public'
-Text.Whitespace : ' '
-Name            : 'GenericResult'
-Text.Whitespace : ' '
-Name.Function   : 'Connect'
-Punctuation     : '('
-Name            : 'IPAddress'
-Text.Whitespace : ' '
-Name            : 'ip'
-Punctuation     : ')'
-Punctuation     : ';'
-Text.Whitespace : '\n'
-Keyword         : 'public'
-Text.Whitespace : ' '
-Name            : 'GenericResult'
-Operator        : '<'
-Keyword.Type    : 'bool'
-Operator        : '>'
-Text.Whitespace : ' '
-Name.Function   : 'Connect'
-Punctuation     : '('
-Name            : 'IPAddress'
-Text.Whitespace : ' '
-Name            : 'ip'
-Punctuation     : ')'
-Punctuation     : ';'
-Text.Whitespace : '\n'
-Keyword         : 'public'
-Text.Whitespace : ' '
-Name            : 'GenericResult'
-Operator        : '<'
-Name            : 'MeLiBu'
-Punctuation     : '.'
-Name            : 'IMeLiBuFrame'
-Operator        : '>'
-Text.Whitespace : ' '
-Name.Function   : 'MeLiBu_ReceiveFrame'
-Punctuation     : '('
-Name            : 'MeLiBu'
-Punctuation     : '.'
-Name            : 'IMeLiBuFrameHeader'
-Text.Whitespace : ' '
-Name            : 'frameHeader'
-Punctuation     : ')'
-Punctuation     : ';'
-Text.Whitespace : '\n'
+'public'      Keyword
+' '           Text.Whitespace
+'GenericResult' Name
+' '           Text.Whitespace
+'Connect'     Name.Function
+'('           Punctuation
+'IPAddress'   Name
+' '           Text.Whitespace
+'ip'          Name
+')'           Punctuation
+';'           Punctuation
+'\n'          Text.Whitespace
+
+'public'      Keyword
+' '           Text.Whitespace
+'GenericResult' Name
+'<'           Operator
+'bool'        Keyword.Type
+'>'           Operator
+' '           Text.Whitespace
+'Connect'     Name.Function
+'('           Punctuation
+'IPAddress'   Name
+' '           Text.Whitespace
+'ip'          Name
+')'           Punctuation
+';'           Punctuation
+'\n'          Text.Whitespace
+
+'public'      Keyword
+' '           Text.Whitespace
+'GenericResult' Name
+'<'           Operator
+'MeLiBu'      Name
+'.'           Punctuation
+'IMeLiBuFrame' Name
+'>'           Operator
+' '           Text.Whitespace
+'MeLiBu_ReceiveFrame' Name.Function
+'('           Punctuation
+'MeLiBu'      Name
+'.'           Punctuation
+'IMeLiBuFrameHeader' Name
+' '           Text.Whitespace
+'frameHeader' Name
+')'           Punctuation
+';'           Punctuation
+'\n'          Text.Whitespace
